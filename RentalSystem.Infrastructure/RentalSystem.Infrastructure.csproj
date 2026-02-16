@@ -23,6 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\RentalSystem.Application\RentalSystem.Application.csproj" />
     <ProjectReference Include="..\RentalSystem.Domain\RentalSystem.Domain.csproj" />
   </ItemGroup>
 

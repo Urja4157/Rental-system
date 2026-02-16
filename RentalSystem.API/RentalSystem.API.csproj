@@ -26,6 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\RentalSystem.Application\RentalSystem.Application.csproj" />
     <ProjectReference Include="..\RentalSystem.Infrastructure\RentalSystem.Infrastructure.csproj" />
   </ItemGroup>
 

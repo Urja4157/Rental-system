@@ -1,8 +1,5 @@
-using Microsoft.EntityFrameworkCore;
-using RentalSystem.Infrastructure;
-using RentalSystem.Infrastructure.Repositories;
 using Scalar.AspNetCore;
-
+using RentalSystem.Infrastructure;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
