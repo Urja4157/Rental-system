@@ -23,14 +23,14 @@ if (app.Environment.IsDevelopment())
 }
 app.UseSwagger();
 app.UseSwaggerUI();
-app.MapScalarApiReference();
+
 
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
-var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
-app.Urls.Add($"http://*:{port}");
+app.MapScalarApiReference();
 
+app.MapGet("/", () => Results.Redirect("/swagger"));
 app.MapControllers();
 
 app.Run();
