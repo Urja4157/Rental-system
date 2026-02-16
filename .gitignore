@@ -1,0 +1,23 @@
+# Visual Studio cache/temp files
+.vs/
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# App settings
+appsettings.json
+appsettings.*.json
+
+# Logs
+*.log
+
+# Rider IDE
+.idea/
+
+# Others
+*.DS_Store

@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Landlords\Commands\" />
+    <Folder Include="Features\Landlords\Queries\" />
+    <Folder Include="Features\Contracts\" />
+    <Folder Include="Features\Invoices\" />
+    <Folder Include="Features\Reports\" />
+    <Folder Include="Features\Utilities\" />
+    <Folder Include="Features\Rooms\" />
+    <Folder Include="Features\Properties\" />
+    <Folder Include="Features\Tenants\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Behaviors\" />
+    <Folder Include="Mappings\" />
+    <Folder Include="DTO\" />
+    <Folder Include="Validators\" />
+  </ItemGroup>
+
+</Project>
