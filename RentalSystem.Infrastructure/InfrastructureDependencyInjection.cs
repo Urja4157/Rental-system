@@ -8,13 +8,13 @@ namespace RentalSystem.Infrastructure
     public static class InfrastructureDependencyInjection
     {
         public static IServiceCollection AddInfrastructure(
-       this IServiceCollection services,
-       IConfiguration configuration)
+        this IServiceCollection services,
+        IConfiguration configuration)
         {
             services.AddDbContext<RentalManagementDbContext>(options =>
-                options.UseSqlServer(
-                    configuration.GetConnectionString("DefaultConnection")));
-
+            {
+                options.UseNpgsql(configuration.GetConnectionString("Postgres"));
+            });
             return services;
         }
     }

@@ -8,7 +8,7 @@ using RentalSystem.Infrastructure.Repositories;
 
 #nullable disable
 
-namespace RentalSystem.Infrastructure.Migrations
+namespace RentalSystem.Infrastructure.Migrations.SqlServer
 {
     [DbContext(typeof(RentalManagementDbContext))]
     partial class RentalManagementDbContextModelSnapshot : ModelSnapshot

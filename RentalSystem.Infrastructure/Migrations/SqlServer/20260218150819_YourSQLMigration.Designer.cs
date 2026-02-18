@@ -9,11 +9,11 @@ using RentalSystem.Infrastructure.Repositories;
 
 #nullable disable
 
-namespace RentalSystem.Infrastructure.Migrations
+namespace RentalSystem.Infrastructure.Migrations.SqlServer
 {
     [DbContext(typeof(RentalManagementDbContext))]
-    [Migration("20260216084337_init_migration")]
-    partial class init_migration
+    [Migration("20260218150819_YourSQLMigration")]
+    partial class YourSQLMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
