@@ -15,10 +15,11 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.ApplyMigrations();
     app.MapOpenApi();
 
 }
+app.ApplyMigrations();
+
 app.UseSwagger();
 app.UseSwaggerUI();
 
