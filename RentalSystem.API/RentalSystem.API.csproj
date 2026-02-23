@@ -28,6 +28,8 @@
   <ItemGroup>
     <ProjectReference Include="..\RentalSystem.Application\RentalSystem.Application.csproj" />
     <ProjectReference Include="..\RentalSystem.Infrastructure\RentalSystem.Infrastructure.csproj" />
+    <ProjectReference Include="..\RentalSystem.Migrations.Postgres\RentalSystem.Migrations.Postgres.csproj" />
+    <ProjectReference Include="..\RentalSystem.Migrations.SqlServer\RentalSystem.Migrations.SqlServer.csproj" />
   </ItemGroup>
 
 </Project>

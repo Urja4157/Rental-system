@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.2.11415.280 d18.0
+VisualStudioVersion = 18.2.11415.280
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
@@ -12,6 +12,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentalSystem.Infrastructure", "RentalSystem.Infrastructure\RentalSystem.Infrastructure.csproj", "{1D85B442-8574-4101-BE0E-174F558096BB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentalSystem.API", "RentalSystem.API\RentalSystem.API.csproj", "{E91704CE-01FA-73EC-E43F-6F5E88BF16C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentalSystem.Migrations.Postgres", "RentalSystem.Migrations.Postgres\RentalSystem.Migrations.Postgres.csproj", "{1E50783F-C434-45A2-A703-0E4CDDFF20C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentalSystem.Migrations.SqlServer", "RentalSystem.Migrations.SqlServer\RentalSystem.Migrations.SqlServer.csproj", "{3D9CE1F2-C4D2-49A0-B7C6-61E8E188FF5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,14 @@ Global
 		{E91704CE-01FA-73EC-E43F-6F5E88BF16C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E91704CE-01FA-73EC-E43F-6F5E88BF16C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E91704CE-01FA-73EC-E43F-6F5E88BF16C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E50783F-C434-45A2-A703-0E4CDDFF20C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E50783F-C434-45A2-A703-0E4CDDFF20C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E50783F-C434-45A2-A703-0E4CDDFF20C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E50783F-C434-45A2-A703-0E4CDDFF20C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D9CE1F2-C4D2-49A0-B7C6-61E8E188FF5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D9CE1F2-C4D2-49A0-B7C6-61E8E188FF5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D9CE1F2-C4D2-49A0-B7C6-61E8E188FF5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D9CE1F2-C4D2-49A0-B7C6-61E8E188FF5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +56,8 @@ Global
 		{FCC688E7-D81A-4AA7-AB86-6598EF139F79} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{1D85B442-8574-4101-BE0E-174F558096BB} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{E91704CE-01FA-73EC-E43F-6F5E88BF16C2} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{1E50783F-C434-45A2-A703-0E4CDDFF20C5} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{3D9CE1F2-C4D2-49A0-B7C6-61E8E188FF5D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FD00534D-9EFA-445C-8D6F-7039C1EF9EF9}
