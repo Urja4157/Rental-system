@@ -1,12 +1,13 @@
-﻿using System;
+﻿#if SQLSERVER
+using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace RentalSystem.Infrastructure.Migrations
+namespace RentalSystem.Infrastructure.Migrations.SqlServer
 {
     /// <inheritdoc />
-    public partial class init_migration : Migration
+    public partial class Init_migration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -456,3 +457,4 @@ namespace RentalSystem.Infrastructure.Migrations
         }
     }
 }
+#endif

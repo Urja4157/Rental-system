@@ -5,8 +5,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
+	<PropertyGroup>
+		<DefineConstants>POSTGRES</DefineConstants>
+	</PropertyGroup>
   <ItemGroup>
+    <Folder Include="Migrations\Postgres\" />
+    <Folder Include="Migrations\SqlServer\" />
     <Folder Include="Services\" />
   </ItemGroup>
 
@@ -20,6 +24,7 @@
     <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="10.0.3" />
     <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="10.0.3" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.3" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.0" />
   </ItemGroup>
 
   <ItemGroup>
